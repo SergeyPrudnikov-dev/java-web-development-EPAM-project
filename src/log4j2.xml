@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR">
+	<Properties>
+		<property name="pattern_file">
+			%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level
+			%logger{5}- %msg%n
+		</property>
+	</Properties>
+	<Appenders>
+		<File name="TxtFile" fileName="logs/log.txt" bufferedIO="true">
+			<PatternLayout
+				pattern="%date{dd.MM.yyyy, HH: mm: ss.SSS} %5level [%thread] %class.%method() : %line%n%msg%n%exception%n" />
+		</File>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{ABSOLUTE} %-5level %logger{1} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="TxtFile" />
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>

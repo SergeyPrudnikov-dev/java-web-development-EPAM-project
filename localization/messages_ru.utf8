@@ -1,0 +1,86 @@
+application.title=Банк «Рога и копыта»
+application.welcome=Текущий пользователь
+application.button.logout=Выйти
+application.button.password.change=Сменить пароль
+
+role.cashier=Кассир
+role.manager=Менеджер
+role.admin=Администратор
+
+login.title=Вход в систему
+login.message.incorrect.password=Имя пользователя или пароль не опознанны
+login.message.access.denied=Доступ запрещён
+login.form.login=Имя пользователя
+login.form.password=Пароль
+login.button.login=Войти
+
+password.change.title=Смена пароля
+password.change.form.old.password=Старый пароль
+password.change.form.new.password=Новый пароль
+password.change.form.new.password.repeat=Повтор нового пароля
+password.change.button.save=Сохранить
+password.change.button.cancel=Отмена
+
+user.list.title=Список пользователей
+user.list.table.login=Имя пользователя
+user.list.table.role=Роль
+user.list.button.add=Добавить
+
+user.edit.title.edit=Редактирование данных пользователя
+user.edit.title.add=Добавление нового пользователя
+user.edit.form.login=Имя пользователя
+user.edit.form.role=Роль
+user.edit.button.save=Сохранить
+user.edit.button.delete=Удалить
+user.edit.button.password.reset=Сброс пароля
+user.edit.button.reset=Сброс формы
+user.edit.button.cancel=Отмена
+
+account.list.title=Список клиентов
+account.transfer.form.source=Счёт-источник
+account.transfer.form.destination=Счёт-получатель
+account.transfer.form.amount=Сумма перевода
+account.transfer.button.transfer=Перевести
+account.list.table.client=Клиент
+account.list.table.balance=Баланс счёта
+account.list.button.add=Добавить
+
+account.view.title=Данные клиента
+account.view.subtitle=История счёта
+account.cash.form.amount=Сумма
+account.cash.button.give=Выдать наличными
+account.cash.button.accept=Принять наличными
+account.view.table.id=Номер счёта
+account.view.table.client=Клиент
+account.view.table.balance=Баланс счёта
+account.view.history.table.source=Счёт-источник
+account.view.history.table.source.empty=Принято наличными
+account.view.history.table.destination=Счёта-получатель
+account.view.history.table.destination.empty=Выдано наличными
+account.view.history.table.account.id=Номер
+account.view.history.table.account.client=Владелец
+account.view.history.table.amount=Сумма перевода
+account.view.history.table.date=Дата и время перевода
+account.view.history.table.operator=Работник, ответственный за операцию
+account.view.button.edit=Редактировать
+account.view.button.cancel=Отмена
+
+account.edit.title.edit=Редактирование данных клиента
+account.edit.title.add=Добавление нового клиента
+account.edit.subtitle=История счёта
+account.edit.form.id=Номер счёта
+account.edit.form.client=Клиент
+account.edit.form.balance=Баланс счёта
+account.edit.button.save=Сохранить
+account.edit.button.delete=Удалить
+account.edit.button.reset=Сброс
+account.edit.button.cancel=Отмена
+account.edit.history.table.source=Счёт-источник
+account.edit.history.table.source.empty=Принято наличными
+account.edit.history.table.destination=Счёта-получатель
+account.edit.history.table.destination.empty=Выдано наличными
+account.edit.history.table.account.id=Номер
+account.edit.history.table.account.client=Владелец
+account.edit.history.table.amount=Сумма перевода
+account.edit.history.table.date=Дата и время перевода
+account.edit.history.table.operator=Работник, ответственный за операцию

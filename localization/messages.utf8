@@ -1,0 +1,86 @@
+application.title=Bank “Horn & Hooves”
+application.welcome=Current user is
+application.button.logout=Log out
+application.button.password.change=Change password
+
+role.cashier=Cashier
+role.manager=Manager
+role.admin=Administrator
+
+login.title=Login page
+login.message.incorrect.password=Username or password is incorrect
+login.message.access.denied=Access is denied
+login.form.login=Username
+login.form.password=Password
+login.button.login=Log in
+
+password.change.title=Changing password
+password.change.form.old.password=Old password
+password.change.form.new.password=New password
+password.change.form.new.password.repeat=Repeat new password
+password.change.button.save=Save
+password.change.button.cancel=Cancel
+
+user.list.title=List of users
+user.list.table.login=User name
+user.list.table.role=User role
+user.list.button.add=Add
+
+user.edit.title.edit=Edit user information
+user.edit.title.add=Add new user
+user.edit.form.login=User name
+user.edit.form.role=User role
+user.edit.button.save=Save
+user.edit.button.delete=Delete
+user.edit.button.password.reset=Reset password
+user.edit.button.reset=Reset form
+user.edit.button.cancel=Cancel
+
+account.list.title=List of accounts
+account.transfer.form.source=Source account
+account.transfer.form.destination=Destination account
+account.transfer.form.amount=Transfer amount
+account.transfer.button.transfer=Transfer
+account.list.table.client=Client
+account.list.table.balance=Balance
+account.list.button.add=Add
+
+account.view.title=Account information
+account.view.subtitle=Account history
+account.cash.form.amount=Amount
+account.cash.button.give=Give in cash
+account.cash.button.accept=Accept in cash
+account.view.table.id=Account number
+account.view.table.client=Client
+account.view.table.balance=Balance
+account.view.history.table.source=Source account
+account.view.history.table.source.empty=Accepted in cash
+account.view.history.table.destination=Destination account
+account.view.history.table.destination.empty=Given in cash
+account.view.history.table.account.id=Number
+account.view.history.table.account.client=Owner
+account.view.history.table.amount=Transfer amount
+account.view.history.table.date=Transfer date
+account.view.history.table.operator=Employee responsible for the operation
+account.view.button.edit=Edit
+account.view.button.cancel=Cancel
+
+account.edit.title.edit=Edit account information
+account.edit.title.add=Add new account
+account.edit.subtitle=Account history
+account.edit.form.id=Account number
+account.edit.form.client=Client
+account.edit.form.balance=Balance
+account.edit.button.save=Save
+account.edit.button.delete=Delete
+account.edit.button.reset=Reset
+account.edit.button.cancel=Cancel
+account.edit.history.table.source=Source account
+account.edit.history.table.source.empty=Accepted in cash
+account.edit.history.table.destination=Destination account
+account.edit.history.table.destination.empty=Given in cash
+account.edit.history.table.account.id=Number
+account.edit.history.table.account.client=Owner
+account.edit.history.table.amount=Transfer amount
+account.edit.history.table.date=Transfer date
+account.edit.history.table.operator=Employee responsible for the operation
